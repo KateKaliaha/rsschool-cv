@@ -32,6 +32,7 @@ I am capable of learning. I am a good team worker, really attentive person, and 
 ***
 
 ## Experience
+*Nothing yet…*
 
 ***
 
@@ -44,4 +45,4 @@ I am capable of learning. I am a good team worker, really attentive person, and 
 ## Languages:
 1. Russian (native)
 2. Belorussian (native)
-3. English **B1** - Intermediate/Upper-intermediate (according to the online test at EFset Logo [www.efset.org] (https://www.efset.org)). I am studying English in Skyeng school more than one year.
+3. English **B1** - Intermediate/Upper-intermediate (according to the online test at EFset Logo https://www.efset.org). I am studying English in Skyeng school more than one year.
