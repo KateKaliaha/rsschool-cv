@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Oxygen', sans-serif;
+    src: url("assets/fonts/Oxygen-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid red;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.main {
+    border: 1px solid red;
+}
+
+.footer {
+    border: 1px solid red;
+}
