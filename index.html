@@ -1,70 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/svg/anons_img.ico">
-    <title>CV Kate Kaliaha</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/svg/anons_img.ico">
+  <title>CV Kate Kaliaha</title>
 </head>
-
-<body>
-    <header class="header">
-        <div class="container" id="nav">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link"> Contacts 
-                        
-                    </a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link"> Summary 
-                        
-                    </a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link"> Skills 
-                       
-                    </a></li>
-                    <li class="nav-item"><a href="#experience" class="nav-link"> Experience 
-                       
-                    </a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link"> Code Example 
-                        
-                    </a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link"> Education 
-                       
-                    </a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link"> Languages 
-                        
-                    </a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-        
-    
-    <main class="main">
-        <div class="container">
-           
-                <section class="profile" id="profile">
-                    <h1 class="section-title">Katherina Kaliaha</h1>
-                    <img class="avatar" src="assets/img/mMyJb98B48g.jpeg" alt="myPhoto">
-                </section>
-    
-                <div class="main-container">
-                <section class="section" id="contacts">
-                    <h2 class="section-title">Contacts</h2>
-                    <ul>
-                        <li>Phone: +375 29 325 79 35</li>
-                        <li>E-mail: mellinda077@mail.ru</li>
-                        <li>Discord: KateKaliaha</li>
-                        <li>GitHub: <a href="https://github.com/katekaliaha">KateKaliaha</a></li>
-                    </ul>
-                </section>
-            
-        
-            
-                <section class="section" id="summary">
-                    <h2 class="section-title">Summary</h2>
-                    <p>I am capable of learning.
+<body class="body">
+  <header class="header">
+    <div class="container" id="nav">
+      <nav class="nav">
+          <ul class="nav-list">
+              <li class="nav-item"><a href="#profile" class="nav-link active"> Profile</a></li>
+              <li class="nav-item"><a href="#contacts" class="nav-link"> Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link"> Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link"> Skills</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link"> Experience</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link"> Code Example</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link"> Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link"> Languages</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+      </div>
+      </div>
+  </header>
+  <main class="main">
+      <section class="profile" id="profile">
+        <h1 class="profile__title">Katherina Kaliaha</h1>
+        <img class="avatar" src="assets/img/mMyJb98B48g.jpeg" alt="myPhoto">
+      </section>
+    <article class="main-container">
+        <section class="section" id="contacts">
+          <h2 class="section__title">Contacts</h2>
+          <ul class="list">
+            <li class="list__item">Phone: +375 29 325 79 35</li>
+            <li class="list__item">E-mail: mellinda077@mail.ru</li>
+            <li class="list__item">Discord: KateKaliaha</li>
+            <li class="list__item">GitHub: <a href="https://github.com/katekaliaha">KateKaliaha</a></li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+                    <h2 class="section__title">Summary</h2>
+                    <p class="section__content">I am capable of learning.
                     I am a good team worker, 
                     really attentive person,
                     and always want to knew 
@@ -74,72 +57,65 @@
                     I like sport such as skiing,
                     volleyball, jogging. I really love to travel.</p>
                 </section>
-           
-        
-          
                 <section class="section" id="skills">
-                    <h2 class="section-title">Skills</h2>
-                    <ul>
-                        <li>HTML (Basic)</li>
-                        <li>CSS (Basic)</li>
-                        <li>Git and GitHub</li>
-                        <li>VS Code</li>
-                        <li>JavaScript (Basic)</li>
+                    <h2 class="section__title">Skills</h2>
+                    <ul class="list">
+                        <li class="list__item">HTML (Basic)</li>
+                        <li class="list__item">CSS (Basic)</li>
+                        <li class="list__item">Git and GitHub</li>
+                        <li class="list__item">VS Code</li>
+                        <li class="list__item">JavaScript (Basic)</li>
                     </ul>
                 </section>
-            
-        
-            
                 <section class="section" id="experience">
-                    <h2 class="section-title">My experience</h2>
-                    <p>My first project <a href="https://katekaliaha.github.io/rsschool-cv/">My CV</a></p>
+                    <h2 class="section__title">My experience</h2>
+                    <div class="projects">
+                    <a class="projects__link link" href="https://katekaliaha.github.io/Preschool/portfolio/" target="blank">
+                      <img class="projects__img" src="/assets/img/portfolio.png" alt="Image portfolio project"></a>
+                    <a class="projects__link link" href="https://katekaliaha.github.io/Preschool/tic-tac-toe/" target="blank">
+                      <img class="projects__img" src="/assets/img/tictac.png" alt="Image tic tac toe project">
+                    </a>
+                    <a class="projects__link link" href="https://katekaliaha.github.io/Shelter/shelter/pages/main/" target="blank">
+                      <img class="projects__img" src="/assets/img/shelter.png" alt="Image shelter project">
+                    </a>
+                    <a class="projects__link link" href="https://katekaliaha.github.io/Virtual-Keyboard/src/" target="blank">
+                      <img class="projects__img" src="/assets/img/keyboard.png" alt="Image keyboard project">
+                    </a></div>
                 </section>
-        
-        
-            
                 <section class="section" id="code">
-                    <h2 class="section-title">Code Example</h2>
-                    <code> function multiply(a, b) {<br>
-                    return a * b<br>
+                    <h2 class="section__title">Code Example</h2>
+                    <code> function alternate (n, firstValue, secondValue) {<br>
+                      let arr = [];<br>
+                      while (arr.length < n) {<br>
+                        arr.length % 2 === 0 ? arr.push(firstValue) : arr.push(secondValue)
+                      }<br>
+                      return arr<br>
                     }</code>
-                
                  </section>
-          
-       
-            
                 <section class="section" id="education">
-                    <h2 class="section-title">Education</h2>
-                    <ul>
-                        <li>University: Belarusian National Technical University (accounter).</li>
-                        <li>Courses: RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).</li>
-                    </ul>
+                    <h2 class="section__title">Education</h2>
+                    <ul class="list">
+                        <li class="list__item">University: Belarusian National Technical University (accounter).</li>
+                        <li class="list__item">Courses: RS Schools Course «JavaScript/Front-end. Stage 0».</li>
+                        <li class="list__item">Courses: RS Schools Course «JavaScript/Front-end. Stage 2» (in progress).</li>
                 </section>
-         
-        
-            
                 <section class="section" id="languages">
-                    <h2 class="section-title">Languages</h2>
-                    <ol>
-                        <li>Russian (native)</li>
-                        <li>Belorussian (native)</li>
-                        <li>English <b>B1</b> - Intermediate/Upper-intermediate 
-                        (according to the online test at EFset Logo <a href="https://www.efset.org">
-                        EF SET</a>. I am studying English in <a href="https://skyeng.ru/">
-                        Skyeng school</a> more than one year.</li>
+                    <h2 class="section__title">Languages</h2>
+                    <ol class="list">
+                        <li class="list__item item_lang">Russian (native)</li>
+                        <li class="list__item item_lang">Belorussian (native)</li>
+                        <li class="list__item item_lang">English <b>B1</b> 
+                        <div><img class="list__item__image" src="./assets/img/lang.png" alt="Image level English knowledge"></div>
+                        </li>
                     </ol>
                 </section>
-            </div>
-        
-        </div>
-
-    </main>
-
-    <footer class="footer">
-            <p>2022</p>
-            <a href="https://github.com/katekaliaha"><img class="link" src="assets/img/38401.png" alt="logo"></a>
-            <a href="https://rs.school/js/"><img class="link" id="logoschool" src="assets/img/rs_school_js.svg" alt="linktocourse"></a>
-    </footer>
-
+            </article>
+  </main>
+  <footer class="footer">
+            <p class="footer__date">2022</p>
+            <a href="https://github.com/katekaliaha"><img class="img" src="assets/img/38401.png" alt="logo github"></a>
+            <a href="https://rs.school/js/"><img class="img logo-school" id="logoschool" src="assets/img/rs_school_js.svg" alt="Link to RS School course"></a>
+  </footer>
+  <script type = "module" src="./index.js"></script>
 </body>
-
 </html>
