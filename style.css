@@ -131,6 +131,14 @@ nav > ul > li {
   padding-left: 20px;
 }
 
+.list__item__image {
+  width: 80%;
+}
+
+/* .item_lang:nth-child(3) {
+  display: flex;
+flex-direction: column;
+} */
 .link {
   text-decoration: none;
   font-weight: bold;
