@@ -57,3 +57,52 @@ React Native / Frontend Developer with commercial experience since 2022. I devel
 - Built a React application from scratch for real-time data monitoring, designing its architecture and WebSocket layer with connection management, data filtering, and error handling.
 - Ported a web application to Android using Cordova and prepared it for publication on Google Play. Implemented local storage with IndexedDB and integrated Cordova plugins to access native device capabilities.
 - Built a reusable React component with asynchronous loading and Markdown support for embedding across different parts of the product.
+
+## Projects
+
+### Sports Betting — Test Assignment
+
+A responsive sports betting demo using mock data. Users can browse current and upcoming events, view match details, and select a betting outcome. The bet button becomes active after a selection. Submitting a bet redirects users to the home page and displays a one-time confirmation message.
+
+**Tech stack:** TypeScript, React, React Router, Material UI, Emotion, Create React App.
+
+[Source code](https://github.com/KateKaliaha/Test-Sports-betting/) · [Live demo](https://katekaliaha.github.io/Test-Sports-betting/#/)
+
+### Demo Billiard — Test Assignment
+
+An interactive billiard simulation rendered on HTML Canvas. Users can push balls with the mouse and change their fill colors through a React menu. Balls of different sizes collide with each other and the canvas boundaries, losing some momentum on impact.
+
+**Tech stack:** Canvas API, TypeScript, React, Vite.
+
+[Source code](https://github.com/KateKaliaha/demo-billiard) · [Live demo](https://katekaliaha.github.io/demo-billiard/)
+
+## Code Example
+
+Check whether a value is an array containing only arrays.
+
+[Task on Codewars](https://www.codewars.com/kata/582c81d982a0a65424000201)
+
+```js
+const arrCheck = (value) => {
+  return Array.isArray(value) && value.every((item) => Array.isArray(item));
+};
+```
+
+## Education
+
+**Belarusian National Technical University (BNTU)**
+
+- Faculty of Automotive and Tractor Engineering
+- Accounting, Analysis and Audit — graduated in 2015
+
+### Courses — RS School
+
+- **Fullstack Engineering** — in progress
+- **Node.js 2022 Q4** — 2023
+- **React 2022 Q3** — 2022
+- **JavaScript / Front-end 2022 Q1** — 2022
+
+## Languages
+
+- **Russian:** Native
+- **English:** B1+ — reading technical documentation and written communication.
