@@ -105,4 +105,4 @@ const arrCheck = (value) => {
 ## Languages
 
 - **Russian:** Native
-- **English:** B1+ — reading technical documentation and written communication.
+- **English:** B1+
