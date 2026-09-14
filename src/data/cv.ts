@@ -104,7 +104,7 @@ export const cv = {
     },
     {
       "label": "English",
-      "text": "B1+ — reading technical documentation and written communication."
+      "text": "B1+"
     }
   ],
   "code": "const arrCheck = (value) => {\n  return Array.isArray(value) && value.every((item) => Array.isArray(item));\n};"
